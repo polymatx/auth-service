@@ -1,0 +1,11 @@
+FROM node:lts-buster
+
+WORKDIR /app
+
+COPY . /app
+
+RUN apt-get update && apt-get -y install python
+RUN npm install -g nodemon sequelize-cli
+RUN npm install
+
+CMD ["npm", "run", "dev"]

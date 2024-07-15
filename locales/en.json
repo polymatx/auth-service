@@ -1,0 +1,21 @@
+{
+	"UNKNOWN_ERROR": "Unknown server error.",
+	"USER_NOT_FOUND": "User is not found.",
+	"WRONG_CREDENTIALS": "Wrong credentials.",
+	"USER_NOT_VERIFIED": "User is not verified.",
+	"INVALID_TOKEN": "Token is not valid.",
+	"INVALID_TOKEN_TYPE": "Token type is not valid.",
+	"INVALID_CLIENT": "Client is not valid.",
+	"INVALID_CLIENT_CREDENTIALS": "Invalid client credentials.",
+	"UNSUPPORTED_GRANT_TYPE": "Unsupported grant type.",
+	"APPLICATION_NOT_FOUND": "Application not found.",
+	"INVALID_REFRESH_TOKEN": "Invalid refresh token.",
+	"REFRESH_TOKEN_REVOKED": "Refresh token revoked.",
+	"PARSE_TOKEN_ERROR": "Error in parsing token.",
+	"INTERNAL_ERROR": "Internal server error.",
+	"USER_ALREADY_EXISTS": "User with this email or username is already registered.",
+	"DATABASE_ERROR": "Database error.",
+	"APPLICATION_ALREADY_EXISTS": "Application with this name is already registered.",
+	"USER_HAS_BEEN_BLOCK": "User has been block by administrator",
+	"ERR_JWT_EXPIRED": "Token has been expired"
+}

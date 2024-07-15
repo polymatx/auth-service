@@ -1,0 +1,20 @@
+{
+  "UNKNOWN_ERROR": "Unbekannter Serverfehler.",
+  "USER_NOT_FOUND": "Benutzer wurde nicht gefunden.",
+  "WRONG_CREDENTIALS": "Falsche Anmeldeinformationen.",
+  "USER_NOT_VERIFIED": "Benutzer wird nicht verifiziert.",
+  "INVALID_TOKEN": "Token ist ungültig.",
+  "INVALID_TOKEN_TYPE": "Der Token-Typ ist ungültig.",
+  "INVALID_CLIENT": "Client is not valid.DE",
+  "INVALID_CLIENT_CREDENTIALS": "Invalid client credentials.DE",
+  "UNSUPPORTED_GRANT_TYPE": "Unsupported grant type.DE",
+  "APPLICATION_NOT_FOUND": "Application not found.DE",
+  "INVALID_REFRESH_TOKEN": "Invalid refresh token.DE",
+  "REFRESH_TOKEN_REVOKED": "Refresh token revoked.DE",
+  "PARSE_TOKEN_ERROR": "Fehler beim Parsen des Tokens.",
+  "INTERNAL_ERROR": "Interner Serverfehler.",
+  "USER_ALREADY_EXISTS": "Benutzer mit dieser E-Mail oder diesem Benutzernamen ist bereits registriert.",
+  "DATABASE_ERROR": "Datenbankfehler.",
+  "APPLICATION_ALREADY_EXISTS": "Bewerbung mit diesem Namen ist bereits registriert.",
+  "USER_HAS_BEEN_BLOCK": "Der Benutzer wurde vom Administrator blockiert"
+}

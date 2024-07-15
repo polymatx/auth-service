@@ -1,0 +1,13 @@
+FROM node:lts-buster
+
+WORKDIR /app
+
+COPY . /app
+
+RUN apt-get update && apt-get -y install python
+RUN npm install -g pm2 sequelize-cli
+RUN npm install
+
+EXPOSE 3000
+
+CMD ["pm2-runtime", "start", "ecosystem.config.js"]
