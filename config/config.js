@@ -25,8 +25,8 @@ module.exports = {
             {
                 dialect: 'mysql',
                 username: env.str( 'MYSQL_USER', 'root' ),
-                password: env.str( 'MYSQL_PASS', 'S9GJUS942aQqHgp9hGI1h@JYdzHpT7CzK76aW@xSgL9fV1Yp1B' ),
-                database: env.str( 'MYSQL_DB', 'spontify' ),
+                password: env.str( 'MYSQL_PASS', '' ),
+                database: env.str( 'MYSQL_DB', 'polymatx' ),
                 host: env.str( 'MYSQL_HOST', 'mysql-local' ),
                 port: env.num( 'MYSQL_PORT', '3306' ),
                 logging: env.bool( 'DATABASE_LOGGING', 'true' ) ? console.log : false,

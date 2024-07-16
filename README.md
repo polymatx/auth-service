@@ -1,5 +1,68 @@
-## Auth Service
-OAuth2 Authentication Microservice with Node.js, MySQL and Passport
+# Auth Service
+
+## Overview
+This project implements a robust OAuth2 authentication microservice using Node.js, MySQL, and Passport. The microservice handles user registration, login, and token issuance using OAuth2.
+
+## Features
+- User registration and login
+- OAuth2 token issuance
+- Client application management
+- Sequelize ORM for database interactions
+- Passport.js for authentication strategies
+- PM2 for clustering and process management
+
+## Prerequisites
+- Node.js
+- MySQL
+- PM2 (for clustering)
+
+## Setup
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/polymatx/auth-service.git
+cd auth-service
+```
+
+### 2. Install Dependencies
+```bash
+npm install
+```
+
+### 3. Configure Environment Variables
+
+Create an `env.json` file in the root directory and add your configuration settings. You can refer to the config/config.js for the required environment variables.
+
+Like bellow :
+
+```json
+{
+  "NODE_ENV": "production",
+  "DEBUG": true,
+  "MYSQL_USER": "root",
+  "MYSQL_PASS": "root",
+  "MYSQL_DB": "polymatx",
+  "MYSQL_HOST": "127.0.0.1",
+  "MYSQL_PORT": "3306",
+  "SERVER_HOST": "0.0.0.0",
+  "SERVER_PORT": "3001",
+  "JWT_SECRET": "0vmmRxf0qcXqianKEDmm6cdng_tMrzRzFFnzB-etnuE",
+  "SHOULD_ENCRYPT_TOKENS": false,
+  "JWE_ENCRYPTION_KEY": "LUvvFZKeG8MTRCZLYBUHdmZoPg70hm-ZYTz6oRBCa-U",
+  "DATABASE_ENCRYPTION_SECRET": "623b07cb53ec407ab641f6ef531301a2",
+  "ACCESS_TOKEN_TTL": "60 days",
+  "REFRESH_TOKEN_TTL": "1 year",
+  "BCRYPT_SALT_ROUNDS": 10,
+  "RATE_LIMIT_REQUESTS_NUMBER": 10000,
+  "RATE_LIMIT_DURATION_SECONDS": 1000
+}
+```
+
+### 4. Start the Application
+
+```bash
+pm2 start ecosystem.config.js
+```
 
 ### Environment Variables
   - `NODE_ENV <String>`: Environment (like development, test, staging, production)

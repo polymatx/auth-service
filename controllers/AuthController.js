@@ -151,7 +151,7 @@ async function internalAuthentication( req, res, next ) {
             });
         }
 
-        if (token === "BornakAuthUser2021!")
+        if (token === "SGl68oGecZAeQ9Dm")
         {
             next ();
 
